@@ -1,0 +1,7 @@
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/deepamnaresh/To_DoList.git
+git push -u origin main
